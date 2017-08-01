@@ -10,14 +10,20 @@ L;2;de;;Frau
 L;2;en;;Miss
 L;2;ru;;Госпожа
 
-T;3;Phonekey_HASH;;;
+T;3;Salutation_U;;;
 
-L;3;de;;Rautetaste
-L;3;en;;pound key
-L;3;ru;;решётку
+L;3;de;;;
+L;3;en;;;
+L;3;ru;;;
 
-T;4;Phonekey_STAR;;;
+T;4;Phonekey_HASH;;;
 
-L;4;de;;Sternchen
-L;4;en;;asterisk
-L;4;ru;;звёздочку
+L;4;de;;Rautetaste
+L;4;en;;pound key
+L;4;ru;;решётку
+
+T;5;Phonekey_STAR;;;
+
+L;5;de;;Sternchen
+L;5;en;;asterisk
+L;5;ru;;звёздочку

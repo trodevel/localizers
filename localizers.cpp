@@ -19,7 +19,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-// $Revision: 7402 $ $Date:: 2017-07-25 #$ $Author: serge $
+// $Revision: 7469 $ $Date:: 2017-08-01 #$ $Author: serge $
 
 #include "localizers.h"     // self
 
@@ -51,6 +51,8 @@ const std::string * to_salutation_raw( phonebook::gender_e e, lang_tools::lang_e
         name = "Salutation_M";
     else if( e == phonebook::gender_e::FEMALE )
         name = "Salutation_F";
+    else if( e == phonebook::gender_e::UNDEF )
+        name = "Salutation_U";
 
     auto templ = get_templ( name, lang );
 
