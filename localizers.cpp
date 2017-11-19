@@ -19,7 +19,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-// $Revision: 7469 $ $Date:: 2017-08-01 #$ $Author: serge $
+// $Revision: 8373 $ $Date:: 2017-11-15 #$ $Author: serge $
 
 #include "localizers.h"     // self
 
@@ -40,7 +40,7 @@ const templtextkeeper::TemplTextKeeper::Templ * get_templ( const std::string & n
     if( id == 0 )
         return nullptr;
 
-    return ttk->find_template( id, lang );
+    return ttk->get_template( id, lang );
 }
 
 const std::string * to_salutation_raw( phonebook::gender_e e, lang_tools::lang_e lang )

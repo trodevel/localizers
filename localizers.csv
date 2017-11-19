@@ -1,28 +1,28 @@
-T;1;Salutation_M;;;
+T;1;1;Salutation_M;;;
 
 L;1;de;;Herr
 L;1;en;;Mister
 L;1;ru;;Господин
 
-T;2;Salutation_F;;;
+T;2;1;Salutation_F;;;
 
 L;2;de;;Frau
 L;2;en;;Miss
 L;2;ru;;Госпожа
 
-T;3;Salutation_U;;;
+T;3;1;Salutation_U;;;
 
 L;3;de;;;
 L;3;en;;;
 L;3;ru;;;
 
-T;4;Phonekey_HASH;;;
+T;4;2;Phonekey_HASH;;;
 
 L;4;de;;Rautetaste
 L;4;en;;pound key
 L;4;ru;;решётку
 
-T;5;Phonekey_STAR;;;
+T;5;2;Phonekey_STAR;;;
 
 L;5;de;;Sternchen
 L;5;en;;asterisk
